@@ -41,7 +41,7 @@ def upload_audio_file(file_path):
 
 def clone(file_id, voice_name):
     try:
-        url = "https://open.bigmodel.cn/api/paas/v4/audio/speech"
+        url = "https://open.bigmodel.cn/api/paas/v4/voice/clone"
         payload = {
             "model": "glm-tts-clone",
             "voice_name": voice_name,
